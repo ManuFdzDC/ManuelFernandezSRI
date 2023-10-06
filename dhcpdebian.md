@@ -32,6 +32,7 @@
   Con esto el PFsense ya quedaria totalmente configurado.
 
   ## 3- Configuracion Debian 
-
+  - Con el comando `sudo apt install isc-dhcp-server` instalaremos el servicio para despues configurar y arrancar el 
+  servidor dhcp
 
  
