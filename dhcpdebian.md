@@ -8,11 +8,13 @@
 
  ## 2- Configuracion de las maquinas virtuales 
  - PfSense: Debera tener dos adaptadores de red uno en puente o NAT para tener salida a internet y otro en red interna para conectar con el resto de maquinas.
-   
+
+
    ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/a56a4bce-ca6e-4235-978c-981d6d72e7a0)
    ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/26ee2784-898e-4ccc-8f6a-67755444548e)
 
  - Debian y Windows10: Tienen que tener un adaptador de red en red interna y tiene que ser la misma red que tenga el PFsense.
+
    
    ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/0d5af25e-0eec-4b6d-801a-9e616b9a080d)
    ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/b81fa5bb-b3ac-4916-877d-04d806b156a5)
@@ -25,7 +27,11 @@
    
   Volveremos a la pestaña principal y en la pestaña interfaces vamos a LAN y configuramos la IP
 
-   ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/8c971d6c-b682-4e5f-8ec0-4e09dedb3ea8)
+   ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/830b803a-30af-42dc-b582-6e496ea74070)
+   
+  Con esto el PFsense ya quedaria totalmente configurado.
+
+  ## 3- Configuracion Debian 
 
 
  
