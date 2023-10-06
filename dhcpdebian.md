@@ -47,13 +47,20 @@
   - Con el comando `apt install isc-dhcp-server` instalaremos el servicio para despues configurar y arrancar 
     el servidor dhcp.
     ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/a7439309-c56f-4c17-9216-0025aefe06c8)
-  - Una vez este instalado debemos especificar en que targeta de red escuchara el servidor, para ello utilizaremos      el comando `nano /etc/default/isc-dhcp-server` modificaremos el arvhivo y pondremos la targeta de red correcta      en INTERFACESv4 el nombre de la targeta debe ir entre comillas.
-
+  - Una vez este instalado debemos especificar en que targeta de red escuchara el servidor, para ello            utilizaremos el comando `nano /etc/default/isc-dhcp-server` modificaremos el arvhivo y pondremos la          targeta de red correcta en INTERFACESv4 el nombre de la targeta debe ir entre comillas.
     
     ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/e015ff24-af0d-4c49-8c14-1ffb19426f1a)
-
-
-    - 
-
-
  
+    Para comprobar el nombre de la targeta de red se puede utilizar le comando `ip a`
+
+    ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/d348ac27-1f99-475e-a782-5945d9347bed)
+
+    Aparecen dos targetas nos fijaremos en la segunda que es la que tiene la ip que previamente habiamos 
+    configurado. En este caso mi targeta es enp0s8.
+
+  - Ahora tenemo que configurar los parametros del servidor modificando el archivo de configuracion, para 
+    acceder a el usaremos `nano /etc/dhcp/dhcpd.conf`. Antes de modificar nada es recomendable hacer una 
+    copia del archivo. Dentro del archivo localizaremos la parte que aparece en la siguiente captura u configuraremos los parametros de IP los rangos de las
+     
+
+  
