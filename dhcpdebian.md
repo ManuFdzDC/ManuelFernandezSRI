@@ -74,6 +74,15 @@ Ahora comprobaremos que esta funcionando con el comando `systemctl status isc-dh
 
 Para parar el servicio DHCP se utilizara el comando `systemctl stop isc-dhcp-server`.
 
+## 5. Comprobacion en equipo cliente
+
+Para comporbar que funciona el servico DHCP uniremos un cliente Windows 10, para ello debe estar en la misma red interna que el servidor y servicio funcionando en Debian.
+Con esto el cliente estara unido solo falta comprobarlo con `ipconfig /all` y el resultado sera similar a la captura de pantalla siguiente.
+
+![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/a50d0a63-7cea-4c62-bf64-fa0a62452e16)
+
+
+
 
 
 
