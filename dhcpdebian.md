@@ -58,9 +58,20 @@
     Aparecen dos targetas nos fijaremos en la segunda que es la que tiene la ip que previamente habiamos 
     configurado. En este caso mi targeta es enp0s8.
 
-  - Ahora tenemo que configurar los parametros del servidor modificando el archivo de configuracion, para 
+  - Ahora tenemos que configurar los parametros del servidor modificando el archivo de configuracion, para 
     acceder a el usaremos `nano /etc/dhcp/dhcpd.conf`. Antes de modificar nada es recomendable hacer una 
-    copia del archivo. Dentro del archivo localizaremos la parte que aparece en la siguiente captura u configuraremos los parametros de IP los rangos de las
-     
+    copia del archivo. Dentro del archivo localizaremos la parte que aparece en la siguiente captura y configuraremos los       parametros de IP, los rangos de las direcciones que repartiran a los clientes, el tiempo maximo y minimo que el            cliente tendra la IP, el DNS y el nombre de dominio.
+    
+    ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/88ab70c2-9c71-41a8-a9ed-b27a7491992d)
+
+En la captura se puede ver que hay dos rangos de IP esta hecho asi para excluir la 192.168.7.50 que es la que tiene el servidor.
+
+## 4. Arrancar el servidor
+Para arrancar el servidor utilizaremos el comando `systemctl start isc-dhcp-server`, si todo funciona bien el comando no tendra respuesta.
+Ahora comprobaremos que esta funcionando con el comando `systemctl status isc-dhcp-server`, en el apartado active pondra active en verde si todo esta funcionando correctamente. 
+
+![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/1e44e0f8-157f-4b47-beb0-2670cc30f4a3)
+
+
 
   
