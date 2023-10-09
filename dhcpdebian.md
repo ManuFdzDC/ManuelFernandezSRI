@@ -5,7 +5,7 @@
 [Configuracion de las maquinas virtuales](#2--configuracion-de-las-maquinas-virtuales)  
 [Configuracion de Pfsense](#3--configuracion-de-pfsense)  
 [Arrancar y parar el servidor](#4--arrancar-y-parar-el-servidor)  
-[Comprobacion emn equipo cliente](#5--comprobacion-en-equipo-cliente)  
+[Comprobacion en equipo cliente](#5--comprobacion-en-equipo-cliente)  
  ## 1- Maquinas virtuales necesarias
  Para poder configurar un servidor DHCP en dbian necesitaremos una maquina virtual con Debian que funcionara como servidor, una con PFsense que funcionara como un router y otra con Windows 10 que funcionara como cliente.
 
@@ -76,7 +76,7 @@ Ahora comprobaremos que esta funcionando con el comando `systemctl status isc-dh
 
 Para parar el servicio DHCP se utilizara el comando `systemctl stop isc-dhcp-server`.
 
-## 5. Comprobacion en equipo cliente
+## 5- Comprobacion en equipo cliente
 
 Para comporbar que funciona el servico DHCP uniremos un cliente Windows 10, para ello debe estar en la misma red interna que el servidor y servicio funcionando en Debian.
 Con esto el cliente estara unido solo falta comprobarlo con `ipconfig /all` y el resultado sera similar a la captura de pantalla siguiente.
