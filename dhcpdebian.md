@@ -1,11 +1,11 @@
 # CONFIGURAR UN SERVIDOR DHCP EN DEBIAN
 ### Ire realizando un ejemplo a par que el tutorial
 
-[Maquinas virtuales necesarias](##1--maquinas-virtuales-necesarias)  
-[Configuracion de las maquinas virtuales](2--configuracion-de-las-maquinas-virtuales)  
-[Configuracion de Pfsense](3--configuracio-de-pfsense)  
-[Arrancar y parar el servidor](4--arrancar-y-parar-el-servidor)  
-[Comprobacion emn equipo cliente](5--comprobacion-en-equipo-cliente)  
+[Maquinas virtuales necesarias](#1--maquinas-virtuales-necesarias)  
+[Configuracion de las maquinas virtuales](#2--configuracion-de-las-maquinas-virtuales)  
+[Configuracion de Pfsense](#3--configuracio-de-pfsense)  
+[Arrancar y parar el servidor](#4--arrancar-y-parar-el-servidor)  
+[Comprobacion emn equipo cliente](#5--comprobacion-en-equipo-cliente)  
  ## 1- Maquinas virtuales necesarias
  Para poder configurar un servidor DHCP en dbian necesitaremos una maquina virtual con Debian que funcionara como servidor, una con PFsense que funcionara como un router y otra con Windows 10 que funcionara como cliente.
 
