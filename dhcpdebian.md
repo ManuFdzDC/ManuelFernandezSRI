@@ -66,11 +66,18 @@
 
 En la captura se puede ver que hay dos rangos de IP esta hecho asi para excluir la 192.168.7.50 que es la que tiene el servidor.
 
-## 4. Arrancar el servidor
+## 4. Arrancar y parar el servidor
 Para arrancar el servidor utilizaremos el comando `systemctl start isc-dhcp-server`, si todo funciona bien el comando no tendra respuesta.
 Ahora comprobaremos que esta funcionando con el comando `systemctl status isc-dhcp-server`, en el apartado active pondra active en verde si todo esta funcionando correctamente. 
 
 ![image](https://github.com/ManuFdzDC/ManuelFernandezSRI/assets/144890528/1e44e0f8-157f-4b47-beb0-2670cc30f4a3)
+
+Para parar el servicio DHCP se utilizara el comando `systemctl stop isc-dhcp-server`.
+
+
+
+
+
 
 
 
