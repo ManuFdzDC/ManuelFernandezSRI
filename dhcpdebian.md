@@ -2,7 +2,7 @@
 ### Ire realizando un ejemplo a par que el tutorial
 
 [Maquinas virtuales necesarias](1--maquinas-virtuales-necesarias)
-[Configuracion de las maquinas virtuales]()
+[Configuracion de las maquinas virtuales](2--configuracion-de-las-maquinas-virtuales)
 [Configuracion de Pfsense](3--configuracio-de-pfsense)
 [Arrancar y parar el servidor](4--arrancar-y-parar-el-servidor)
 [Comprobacion emn equipo cliente](5--comprobacion-en-equipo-cliente)
